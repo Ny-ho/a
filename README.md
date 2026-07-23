@@ -1,6 +1,6 @@
 # Book LM - Library Management System
 
-A professional, modern Library Management System built with a **FastAPI** asynchronous backend and a **React & TypeScript** frontend. The system supports full CRUD operations on books and users, record tracking for borrowed books, and Google OAuth 2.0 authentication combined with JSON Web Tokens (JWT).
+A professional, modern Library Management System built with a **FastAPI** asynchronous backend and a **React & TypeScript** frontend. The system supports full CRUD operations on books and users, record tracking for borrowed books, and Google OAuth 2.0 authentication combined with JSON Web Tokens (JWT).Atomiticy ti avoid race conditions with test case
 
 ---
 ## 📸 Screenshots
