@@ -10,7 +10,6 @@ engine=create_async_engine(
     settings.DATABASE_URL,
     echo=True,
     # connect_args={"check_same_thread":False}
-
 )
 async def get_session():
     async with AsyncSession(engine) as session:
